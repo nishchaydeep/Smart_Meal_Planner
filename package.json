@@ -1,0 +1,38 @@
+{
+  "name": "recipe-meal-planner-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for recipe and meal planning with AI-powered suggestions",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "recipe-meal-planner-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "web": "node web-server.js"
+  },
+  "keywords": [
+    "mcp",
+    "recipe",
+    "meal-planner",
+    "nutrition",
+    "groq"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "groq-sdk": "^0.7.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
