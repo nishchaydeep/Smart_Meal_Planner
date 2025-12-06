@@ -11,7 +11,7 @@ An AI-powered Model Context Protocol (MCP) server for intelligent recipe suggest
 - **Meal Logging**: Track your meals to improve future suggestions
 - **Daily Calorie Targets**: Automatic calculation based on your profile and activity level
 
-## 📸 Screenshots
+## Screenshots
 
 ### Homepage - Profile Setup
 ![Homepage](screenshots/homepage.png)
